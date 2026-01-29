@@ -25,13 +25,19 @@ export default function Menu({ action }: { action?: () => void }) {
     sync();
   }, []);
 
-
   return (
-    <div className={`${styles.navWrap} rounded-2xl! lg:rounded-full! lg:w-fit! w-full!`}>
+    <div
+      className={`${styles.navWrap} rounded-2xl! lg:rounded-full! ml-0! mr-auto!`}
+    >
       <div className={`${styles.bubble} ${styles.bubbleActive}`} />
-      <div className={`${styles.bubble} ${styles.bubbleHover}`} />
+      <div
+        className={`${styles.bubble} ${styles.bubbleHover} hidden lg:block!`}
+      />
 
-      <nav className={`${styles.nav} in-[.visible]:flex-col`} aria-label="Hauptmenü">
+      <nav
+        className={`${styles.nav} in-[.visible]:flex-col`}
+        aria-label="Hauptmenü"
+      >
         {items.map((item) => (
           <NavLink
             key={item.href}

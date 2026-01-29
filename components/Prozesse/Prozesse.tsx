@@ -30,7 +30,7 @@ export default function Prozesse() {
   ];
 
   return (
-    <section className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-5 md:py-10 xl:py-17.5 2xl:py-30 space-y-20">
+    <section className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30 space-y-20">
       <SectionHeader
         title="Der steinige Weg manueller"
         subtitle="Der manuelle Umgang mit Leitungsrechten ist mit hohen Kosten, langen Bearbeitungszeiten und rechtlicher Unsicherheit verbunden."

@@ -10,12 +10,12 @@ const items: FAQItemType[] = [
     question:
       "Warum ist professionelles Grundstücksmanagement entscheidend für Netzprojekte?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Weil unklare Eigentums- und Rechtslagen Projekte verzögern und Kosten treiben. Wir schaffen frühzeitig Klarheit und sichern Ihre Maßnahmen rechtlich ab. So bleiben Zeitpläne stabil und Risiken kontrollierbar.",
   },
   {
     question: "Was genau übernehmen wir für Sie?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Wir ermitteln, prüfen und aktualisieren alle relevanten Eigentümer-, Grundbuch-, Grundstücks- sowie Nutzer- und Pächterdaten. Die Informationen werden strukturiert aufbereitet und projektbezogen bereitgestellt. Sie erhalten eine sofort nutzbare Entscheidungsgrundlage.",
   },
   {
     question: "Wie stellen wir Aktualität und Qualität sicher?",
@@ -25,22 +25,22 @@ const items: FAQItemType[] = [
   {
     question: "Welchen konkreten Nutzen haben Sie davon?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Weniger Abstimmungsaufwand, und ein reibungsloser Bauablauf. Rechtsrisiken werden frühzeitig erkannt und vermieden. Das spart Zeit, Kosten und interne Ressourcen.",
   },
   {
     question: "Für welche Projekte ist der Service ideal?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Für Umbau- und Ersatzneubauprojekte sowie für Bestandsnetze mit unklarer Rechtslage. Besonders effektiv bei komplexen Trassen, vielen Beteiligten oder engem Terminplan.",
   },
   {
     question: "Ist der Service rechtssicher und DSGVO-konform?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Ja. Alle Prozesse erfüllen die geltenden gesetzlichen und datenschutzrechtlichen Anforderungen. Sie erhalten revisionssichere Ergebnisse, die intern und extern Bestand haben.",
   },
   {
     question: "Wie schnell können wir starten?",
     answer:
-      "Wir arbeiten mit aktuellen Kataster- und Grundbuchdaten, ergänzt durch kommunale Informationen und Vor-Ort-Abstimmungen. Änderungen werden laufend dokumentiert und nachvollziehbar gepflegt. Ihre Daten bleiben dauerhaft belastbar.",
+      "Nach kurzer Abstimmung beginnen wir umgehend mit der Datenermittlung. Erste verwertbare Ergebnisse stehen in der Regel kurzfristig zur Verfügung.",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-5 md:py-10 xl:py-17.5 2xl:py-30">
+    <div className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30">
       <SectionHeader
         subtitle="GridRight kann von allen gängigen Netzbetreibern genutzt werden."
         title="FAQ"

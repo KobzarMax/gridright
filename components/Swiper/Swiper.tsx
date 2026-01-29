@@ -30,11 +30,13 @@ const slides = [
 ];
 
 export default function Swiper() {
-  // which slide are we on (1..total)
   const [active, setActive] = useState(1);
 
   return (
-    <section id="unser-ansatz" className="ansatz-section px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-5 md:py-10 xl:py-17.5 2xl:py-30">
+    <section
+      id="unser-ansatz"
+      className="ansatz-section px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30"
+    >
       <div className="space-y-7.5 max-w-3xl mx-auto mb-7.5 sm:mb-10 md:mb-12.5 xl:mb-15">
         <h2 className="text-white font-medium text-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-[1.12]">
           Der GridRight Ansatz
@@ -71,6 +73,14 @@ export default function Swiper() {
               prev: { translate: ["-10%", 0, -250], scale: 0.92, opacity: 0.4 },
               next: { translate: ["8%", 0, -80], scale: 0.98, opacity: 0.9 },
             }}
+            allowTouchMove={true}
+            simulateTouch={true}
+            grabCursor={true}
+            touchEventsTarget="container"
+            touchStartPreventDefault={false}
+            touchMoveStopPropagation={false}
+            touchReleaseOnEdges={true}
+            threshold={5}
             onSlideChange={(swiper: SwiperType) => {
               setActive(swiper.realIndex + 1);
             }}

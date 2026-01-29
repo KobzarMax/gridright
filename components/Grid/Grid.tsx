@@ -43,7 +43,10 @@ const items2 = [
 
 export default function Grid() {
   return (
-    <section id="funktionen" className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-5 md:py-10 xl:py-17.5 2xl:py-30">
+    <section
+      id="funktionen"
+      className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30"
+    >
       <SectionHeader
         title="So sieht"
         grayText="Grid Right aus"
