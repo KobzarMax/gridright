@@ -5,7 +5,7 @@ import { check, chevron, electric, electricPilon, euro } from "@/static";
 
 const Hero = () => {
   return (
-    <div className="relative w-full pt-30 xl:pt-40 2xl:pt-71.5 px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pb-5 md:pb-10 xl:pb-17.5 2xl:pb-30 bg-secondary text-white flex flex-col items-center justify-center max-h-dvh h-dvh">
+    <div className="relative w-full pt-30 xl:pt-40 px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pb-5 md:pb-10 xl:pb-17.5 2xl:pb-30 bg-secondary text-white flex flex-col items-center justify-center max-h-dvh h-dvh">
       <Image
         className="absolute top-0 left-0 w-full h-full z-0 object-cover"
         src={electricPilon}

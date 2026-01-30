@@ -41,7 +41,7 @@ export default function FAQSectionTransparent() {
           <h2 className="text-white text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center md:text-left">
             Das kann GridRight
           </h2>
-          <p className="text-white/50 text-lg font-medium text-center md:text-left">
+          <p className="text-white lg:text-white/50 text-lg font-medium text-center md:text-left">
             Die Preise berechnen sich anhand der KM und Flurstückanzahl
           </p>
         </div>

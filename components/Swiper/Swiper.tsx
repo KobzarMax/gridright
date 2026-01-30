@@ -12,20 +12,20 @@ import { useState } from "react";
 
 const slides = [
   {
-    title: "Upload",
+    title: "Vollmacht",
     text: "Nutzer laden Vollmachten und Grundstücksdaten in unterstützten Formaten (CSV, Excel, PDF, Shapefile) über eine Drag-and-Drop-Oberfläche hoch.",
   },
   {
-    title: "Upload",
-    text: "Nutzer laden Vollmachten und Grundstücksdaten in unterstützten Formaten (CSV, Excel, PDF, Shapefile) über eine Drag-and-Drop-Oberfläche hoch.",
+    title: "Beschaffung",
+    text: "Automatisierte Abfragen bei Katasterämtern und Grundbuchämtern, ohne manuellen Interaktionsbedarf. GridRight  interagiert mittels KI-Agenten mit Portalen aller 16 Bundesländer.",
   },
   {
-    title: "Upload",
-    text: "Nutzer laden Vollmachten und Grundstücksdaten in unterstützten Formaten (CSV, Excel, PDF, Shapefile) über eine Drag-and-Drop-Oberfläche hoch.",
+    title: "Abgleich",
+    text: "KI vergleicht bestehende Kundendaten mit aktuellen Eigentümern und erkennt Unterschiede automatisch mithilfe von Textanalyse-Technologien.",
   },
   {
-    title: "Upload",
-    text: "Nutzer laden Vollmachten und Grundstücksdaten in unterstützten Formaten (CSV, Excel, PDF, Shapefile) über eine Drag-and-Drop-Oberfläche hoch.",
+    title: "Ergebnis",
+    text: "Das Endergebnis steht nach der Bearbeitung zum Download bereit, oder kann über die API-Anbindung direkt an das ERP System übermittelt werden.",
   },
 ];
 
