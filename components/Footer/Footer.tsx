@@ -13,13 +13,16 @@ export default function Footer() {
           GridRight
         </Link>
         <div className="space-y-7.5 relative z-1 text-white text-lg">
-          <p className="max-w-sm break-all">
+          <p className="max-w-sm hyphens-auto">
             GridRight unterstützt die strukturierte Planung und Dokumentation
             von Netzinfrastrukturprojekten.
           </p>
           <div className="flex items-end justify-between">
             <p>Bleiben Sie in Kontakt!</p>
-            <Link href={"#kontakt"}>
+            <Link
+              target="_blank"
+              href={"https://www.linkedin.com/company/gridright/"}
+            >
               <Image
                 src={linkedin}
                 alt="linkedin"
@@ -77,19 +80,19 @@ export default function Footer() {
             <p className="text-lg text-dark/50 font-medium">Unternehmen</p>
             <div className="space-y-3">
               <Link
-                className="text-lg text-dark font-medium block break-all"
+                className="text-lg text-dark font-medium block hyphens-auto"
                 href={"/datenschutzbestimmungen"}
               >
                 Datenschutzbestimmungen
               </Link>
               <Link
-                className="text-lg text-dark font-medium block break-all"
+                className="text-lg text-dark font-medium block hyphens-auto"
                 href={"/impressum"}
               >
                 Impressum
               </Link>
               <Link
-                className="text-lg text-dark font-medium block break-all"
+                className="text-lg text-dark font-medium block hyphens-auto"
                 href={"/cookies"}
               >
                 Cookies

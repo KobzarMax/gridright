@@ -18,10 +18,10 @@ export default function Zielgruppe() {
         title="Zielgruppe"
         subtitle="GridRight kann von allen gängigen Netzbetreibern genutzt werden."
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-2 gap-4.5">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-[minmax(0,401px)_minmax(0,401px)] gap-4.5">
         <div className="row-span-2 max-w-121 relative group">
           <Image
-            className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
+            className="max-w-full w-full h-full object-left object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={stromnetz}
             alt="stromnetz"
           />
@@ -43,10 +43,10 @@ export default function Zielgruppe() {
           <Image
             className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={telekommunikationsnetz}
-            alt="telekommunikationsnetz"
+            alt="Breitbandnetz"
           />
           <span className="group-hover:opacity-0 opacity-100 transition-all duration-300 absolute top-1/2 -translate-1/2 left-1/2 text-white leading-[1.12] text-3xl capitalize">
-            telekommunikationsnetz
+            Breitbandnetz
           </span>
         </div>
         <div className="max-w-121 relative group">

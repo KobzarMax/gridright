@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Swiper as SwiperRoot, SwiperSlide } from "swiper/react";
-import { EffectCreative, Autoplay, Pagination } from "swiper/modules";
+import { EffectCreative, Pagination } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper/types";
 
 import "swiper/css";
@@ -49,17 +49,12 @@ export default function Swiper() {
       <div className="mx-auto max-w-228">
         <div className="relative w-full pt-5 pb-22.5">
           <SwiperRoot
-            modules={[EffectCreative, Autoplay, Pagination]}
+            modules={[EffectCreative, Pagination]}
             effect="creative"
             centeredSlides={true}
             speed={700}
             watchSlidesProgress
             loopAdditionalSlides={2}
-            autoplay={{
-              delay: 1800,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: true,
-            }}
             pagination={{
               clickable: true,
               renderBullet: (index: number, className: string) =>

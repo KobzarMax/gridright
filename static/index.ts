@@ -16,6 +16,7 @@ import telekommunikationsnetz from "../asset/telekommunikationsnetz.png";
 import trees from "../asset/trees.png";
 import upload from "../asset/upload.svg";
 import wassernetz from "../asset/wassernetz.png";
+import gasnetz from "../asset/gasnetz.png";
 import zielgruppeBg from "../asset/zielgruppe_bg.png";
 import footer_back from "../asset/footer_back.png";
 import plus from "../asset/plus.svg";
@@ -29,6 +30,7 @@ export {
   swiperSlide,
   grid,
   check,
+  gasnetz,
   footer_back,
   chevron,
   download,

@@ -11,17 +11,17 @@ const items: FAQItemType[] = [
       "Aktuelle Eigentümerdaten sind die Grundlage für einen rechtssicheren Netzbetrieb. Sie sichern Dienstbarkeiten, Zugangsrechte und die planungsrelevante Kommunikation. Die Daten werden aus Kataster-, Grundbuch- und Bestandsinformationen konsolidiert und fortlaufend aktualisiert. So lassen sich Projektrisiken und Verzögerungen gezielt minimieren.",
   },
   {
-    question: "Ermittlung und Prüfung der Grundbuchdaten",
+    question: "Rechtskonforme Analyse und Validierung von Grundbuchinformationen",
     answer:
       "Die Grundbuchprüfung stellt die dingliche Absicherung von Netzanlagen sicher. Geprüft werden insbesondere Dienstbarkeiten, Rechteumfang und Begünstigte. Aktuelle Grundbuchdaten bilden die Basis für Bau, Betrieb und Ersatzneubau. Rechtliche Risiken werden dadurch frühzeitig erkannt und vermieden.",
   },
   {
-    question: "Ermittlung und Aktualisierung der Grundstücksdaten",
+    question: "Zentrale, systemgestützte Aktualisierung der Grundstücksdaten",
     answer:
       "Präzise Grundstücksdaten ermöglichen eine exakte Trassen- und Anlagenplanung. Erfasst werden Flurstücke, Nutzungsarten und die räumliche Betroffenheit. Die Daten werden GIS-gestützt geprüft und bei Änderungen laufend aktualisiert. Das schafft Planungssicherheit und Genehmigungsfähigkeit.",
   },
   {
-    question: "Ermittlung und Aktualisierung der Nutzer- und Pächterdaten",
+    question: "Strukturierte Erfassung und Verwaltung von Nutzer- und Pächterdaten",
     answer:
       "Aktuelle Nutzer- und Pächterdaten sichern einen störungsfreien Bau- und Betriebsablauf. Sie ermöglichen die koordinierte Abstimmung von Zugängen, Bauzeiten und Entschädigungen. Die Daten werden projektbezogen erhoben und regelmäßig aktualisiert. So werden operative Risiken und Konflikte reduziert.",
   },

@@ -19,11 +19,11 @@ export default function ProzesseCard({
           <div className="bg-[#72F0B6]/15 text-[#558762] w-fit flex items-center justify-center py-2.5 px-9 rounded-full font-semibold text-sm group-hover:text-[#BACD9C] transition-colors">
             {number}
           </div>
-          <h3 className="text-2xl font-semibold text-dark group-hover:text-white break-all">
+          <h3 className="text-2xl font-semibold text-dark group-hover:text-white hyphens-auto ">
             {title}
           </h3>
         </div>
-        <p className="text-lg text-dark/50 leading-relaxed group-hover:text-white transition-colors break-all">
+        <p className="text-lg text-dark/50 leading-relaxed group-hover:text-white transition-colors hyphens-auto">
           {description}
         </p>
       </div>

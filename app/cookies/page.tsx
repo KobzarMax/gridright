@@ -568,7 +568,7 @@ export default function CookiesPage() {
   return (
     <main>
       <div className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pt-30 xl:pb-17.5 2xl:pb-25 container mx-auto *:text-dark space-y-10">
-        <article className="max-w-4xl">
+        <article className="max-w-4xl space-y-4">
           {/* Header */}
           <header className="space-y-3">
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">

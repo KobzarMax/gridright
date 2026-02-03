@@ -21,7 +21,7 @@ const Hero = () => {
             Automatisierte Beschaffung von Wegerecht-Daten mit GridRight
           </h1>
           <CTA className="flex items-center justify-center gap-5 text-xl">
-            Demo buchen{" "}
+            Demo anfragen{" "}
             <Image src={chevron} alt="Chevron" width={6} height={8} />
           </CTA>
         </div>

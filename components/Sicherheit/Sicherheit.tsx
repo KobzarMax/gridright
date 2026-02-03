@@ -7,9 +7,9 @@ const points = [
       "GridRight wurde unter Berücksichtigung der DSGVO-Prinzipien 'Privacy by Design' und 'Privacy by Default' entwickelt, um Datenschutzkonformität von Grund auf sicherzustellen.",
   },
   {
-    title: "Deutscher Server-Standort",
+    title: "Serverstandort Deutschland",
     description:
-      "GridRight plant die Erlangung der ISO 27001-Zertifizierung, einem weltweit anerkannten Standard für Informationssicherheitsmanagement. Regelmäßige Audits gewährleisten den Erhalt der Informationssicherheit.",
+      "Ihre Daten werden ausschließlich auf Servern in Deutschland verarbeitet – DSGVO-konform und nach höchsten Sicherheitsstandards. GridRight orientiert sich an der ISO 27001 und etabliert kontinuierliche Sicherheits- und Auditprozesse.",
   },
   {
     title: "Verschlüsselte Daten",
@@ -41,10 +41,10 @@ export default function Sicherheit() {
             key={index}
             className="col-span-2 transition-all duration-300 md:nth-[4]:col-span-2 lg:nth-[4]:col-span-3 md:last:col-span-2 lg:last:col-span-3 px-4 md:px-6 lg:px-8 xl:px-10 py-5 sm:py-7.5 md:py-10 lg:12.5 xl:py-15 flex flex-col items-start justify-between gap-8 sm:gap-12 md:gap-16 lg:gap-24 xl:gap-30 bg-white rounded-[20px] point-item group"
           >
-            <h3 className="text-dark group-hover:text-white transition-all duration-300 font-medium text-2xl md:text-3xl break-all">
+            <h3 className="text-dark group-hover:text-white transition-all duration-300 font-medium text-2xl md:text-3xl hyphens-auto">
               {point.title}
             </h3>
-            <p className="text-dark/40 group-hover:text-white/50 transition-all duration-300 font-normal text-lg break-all">
+            <p className="text-dark/40 group-hover:text-white/50 transition-all duration-300 font-normal text-lg hyphens-auto">
               {point.description}
             </p>
           </div>

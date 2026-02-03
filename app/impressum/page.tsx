@@ -6,7 +6,8 @@ export default function ImpressumPage() {
       <div className="px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pt-30 xl:pb-17.5 2xl:pb-25 container mx-auto *:text-dark space-y-10">
         <h1 className="text-5xl font-bold">Impressum</h1>
         <h2 className="text-3xl font-medium">Informationen nach § 5 TMG:</h2>
-        <div className="space-y-5">
+        <div className="">
+          <p className="text-lg">GridRight ist ein Produkt Expert Minds GmbH</p>
           <p className="text-lg">Geschäftsführender Direktor: Emil Melikov</p>
           <p className="text-lg">Kontakt:</p>
           <p className="text-lg">
@@ -17,7 +18,7 @@ export default function ImpressumPage() {
             <Link href={"mailto:info@xprt-minds.com"}>info@xprt-minds.com</Link>
           </p>
         </div>
-        <div className="space-y-5">
+        <div className="">
           <p className="text-lg">Registernummer: HRB 16676 CB</p>
           <p className="text-lg">Amtsgericht Cottbus</p>
         </div>
@@ -25,7 +26,7 @@ export default function ImpressumPage() {
         <h2 className="text-3xl font-medium">
           Name und eingetragener Sitz der Gesellschaft:
         </h2>
-        <div className="space-y-5">
+        <div className="">
           <p className="text-lg">Expert Minds GmbH</p>
           <p className="text-lg">Angerstraße 11</p>
           <p className="text-lg">12529 Schönefeld</p>
