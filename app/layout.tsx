@@ -70,7 +70,6 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${poppinsSans.className} bg-[#eeeeee]`}>
         {/* Cookiebot Consent Management */}
-        <CookieBot />
 
         {/* Google Analytics */}
         <Script
@@ -89,6 +88,8 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <CookieBot />
+
       </body>
     </html>
   );

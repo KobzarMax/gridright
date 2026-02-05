@@ -1,30 +1,18 @@
 "use client";
 
-import { useEffect } from "react";
+import Script from "next/script";
 
-const CookieBot = () => {
-    useEffect(() => {
-        const cmpScript = document.createElement("script");
-        const declarationScript = document.createElement("script");
-        cmpScript.id = "Cookiebot";
-        cmpScript.src = "https://consent.cookiebot.com/uc.js";
-        cmpScript.setAttribute("data-cbid", "b79ad5b2-e5f3-41c1-9b4b-a34c003cc872");
-        cmpScript.setAttribute("type", "text/javascript");
-        cmpScript.setAttribute("async", "true");
-        cmpScript.setAttribute("data-blockingmode", "auto");
-        document.body.appendChild(cmpScript);
-        declarationScript.id = "CookieDeclaration";
-        declarationScript.src = "https://consent.cookiebot.com/b79ad5b2-e5f3-41c1-9b4b-a34c003cc872/cd.js";
-        declarationScript.setAttribute("strategy", "afterInteractive");
-        document.body.appendChild(declarationScript);
-
-
-        return () => {
-            document.head.removeChild(cmpScript);
-        };
-    }, []);
-
-    return null;
-};
-
-export default CookieBot;
+export default function CookieBot() {
+    return (
+        <>
+            <Script
+                id="Cookiebot"
+                src="https://consent.cookiebot.com/uc.js"
+                strategy="beforeInteractive"
+                data-cbid="b79ad5b2-e5f3-41c1-9b4b-a34c003cc872"
+                data-blockingmode="auto"
+                type="text/javascript"
+            />
+        </>
+    );
+}

@@ -7,6 +7,7 @@ import Prozesse from "@/components/Prozesse/Prozesse";
 import Sicherheit from "@/components/Sicherheit/Sicherheit";
 import Swiper from "@/components/Swiper/Swiper";
 import Zielgruppe from "@/components/Zielgruppe/Zielgruppe";
+import CookieDeclarationPage from "@/components/Cookie/CookieDeclarationPage";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Sicherheit />
       <ContactSection />
       <FAQSection />
+      <CookieDeclarationPage />
     </main>
   );
 }
