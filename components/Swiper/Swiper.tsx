@@ -35,7 +35,7 @@ export default function Swiper() {
   return (
     <section
       id="unser-ansatz"
-      className="ansatz-section px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30"
+      className="ansatz-section overflow-hidden px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 py-10 xl:py-17.5 2xl:py-30"
     >
       <div className="space-y-7.5 max-w-3xl mx-auto mb-7.5 sm:mb-10 md:mb-12.5 xl:mb-15">
         <h2 className="text-white font-medium text-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-[1.12]">

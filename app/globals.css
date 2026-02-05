@@ -97,8 +97,7 @@
     color: #ffffff50;
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
 
 .ansatz-section {
     background-image: url("../asset/swiper_back.png");
@@ -276,14 +275,12 @@
     height: 24px;
     transition: 0.3s all ease;
     opacity: 0.5;
-    filter: invert(100%) sepia(0%) saturate(7481%) hue-rotate(120deg)
-        brightness(99%) contrast(104%);
+    filter: invert(100%) sepia(0%) saturate(7481%) hue-rotate(120deg) brightness(99%) contrast(104%);
 }
 
 .active .faq-icon__transparent img {
     transform: rotate(180deg);
-    filter: invert(13%) sepia(0%) saturate(2%) hue-rotate(39deg)
-        brightness(103%) contrast(95%);
+    filter: invert(13%) sepia(0%) saturate(2%) hue-rotate(39deg) brightness(103%) contrast(95%);
     opacity: 1;
 }
 
@@ -306,6 +303,7 @@
     .faq-answer-item {
         border-radius: 30px;
     }
+
     .faq-wrapper,
     .feedback-inner {
         padding: 0 20px;

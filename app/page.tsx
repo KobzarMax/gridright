@@ -10,7 +10,7 @@ import Zielgruppe from "@/components/Zielgruppe/Zielgruppe";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <Hero />
       <Prozesse />
       <Zielgruppe />
