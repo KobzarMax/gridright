@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import CookieBot from "@/components/Cookie/CookieBot";
 
 const poppinsSans = Poppins({
   style: "normal",
@@ -68,14 +69,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${poppinsSans.className} bg-[#eeeeee]`}>
-        {/* Cookiebot Consent Management
-        <Script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="b79ad5b2-e5f3-41c1-9b4b-a34c003cc872"
-          data-blockingmode="auto"
-          strategy="beforeInteractive"
-        /> */}
+        {/* Cookiebot Consent Management */}
+        <CookieBot />
 
         {/* Google Analytics */}
         <Script
@@ -90,13 +85,6 @@ export default function RootLayout({
             gtag('config', 'G-2GTCFXHYD0');
           `}
         </Script>
-
-        {/* Cookiebot Declaration
-        <Script
-          id="CookieDeclaration"
-          src="https://consent.cookiebot.com/b79ad5b2-e5f3-41c1-9b4b-a34c003cc872/cd.js"
-          strategy="afterInteractive"
-        /> */}
 
         <Header />
         {children}
