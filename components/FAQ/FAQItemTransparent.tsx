@@ -45,6 +45,7 @@ export default function FAQItemTransparent({
           />
         </button>
       </div>
+
       <div ref={contentRef} className="faq-answer-content__transparent">
         <p>{item.answer}</p>
       </div>
