@@ -85,7 +85,7 @@ export async function POST(req: Request) {
       to: email,
 
       // // CC: you (so it lands in your inbox)
-      cc: "anfrage@gridright.de",
+      cc: "emil.melikov@gridright.de",
 
       subject,
       text,
