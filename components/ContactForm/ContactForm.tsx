@@ -154,7 +154,6 @@ export default function ContactForm() {
       >
         {loading ? "Sende..." : "Demo anfragen"}
         <Image
-          loading="lazy"
           src={chevron}
           alt="Chevron"
           width={6}

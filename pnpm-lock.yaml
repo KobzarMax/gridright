@@ -17,6 +17,9 @@ importers:
       react:
         specifier: 19.2.3
         version: 19.2.3
+      react-cookiebot:
+        specifier: ^1.0.10
+        version: 1.0.10(react@19.2.3)
       react-dom:
         specifier: 19.2.3
         version: 19.2.3(react@19.2.3)
@@ -45,6 +48,9 @@ importers:
       '@types/react':
         specifier: ^19
         version: 19.2.9
+      '@types/react-cookiebot':
+        specifier: ^1.0.5
+        version: 1.0.5
       '@types/react-dom':
         specifier: ^19
         version: 19.2.3(@types/react@19.2.9)
@@ -121,6 +127,10 @@ packages:
     resolution: {integrity: sha512-TeR9zWR18BvbfPmGbLampPMW+uW1NZnJlRuuHso8i87QZNq2JRF9i6RgxRqtEq+wQGsS19NNTWr2duhnE49mfQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  '@babel/runtime@7.28.6':
+    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
+    engines: {node: '>=6.9.0'}
 
   '@babel/template@7.28.6':
     resolution: {integrity: sha512-YA6Ma2KsCdGb+WC6UpBVFJGXL58MDA6oyONbjyF/+5sBgxY/dwkhLogbMT2GXXyU84/IhRw/2D1Os1B/giz+BQ==}
@@ -545,6 +555,9 @@ packages:
 
   '@types/nodemailer@7.0.9':
     resolution: {integrity: sha512-vI8oF1M+8JvQhsId0Pc38BdUP2evenIIys7c7p+9OZXSPOH5c1dyINP1jT8xQ2xPuBUXmIC87s+91IZMDjH8Ow==}
+
+  '@types/react-cookiebot@1.0.5':
+    resolution: {integrity: sha512-sbRFrpHdIi0XAMV+nOc3y2swMtTf2ismTU8zLmEYCGk0T7jus080ZgKqnqQzblGGWBvJ3luxV5e6KkHq9dl+bA==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -1748,6 +1761,12 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
+  react-cookiebot@1.0.10:
+    resolution: {integrity: sha512-Lac65Jp0irOdWUo569SNFoiYuf5SA8jKhQimNYV8YKywr/VD7ExT7UT1HjTtGt+ecKbfctwLqsl7ULCohz7zBg==}
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '*'
+
   react-dom@19.2.3:
     resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
     peerDependencies:
@@ -2154,6 +2173,8 @@ snapshots:
     dependencies:
       '@babel/types': 7.28.6
 
+  '@babel/runtime@7.28.6': {}
+
   '@babel/template@7.28.6':
     dependencies:
       '@babel/code-frame': 7.28.6
@@ -2521,6 +2542,10 @@ snapshots:
   '@types/nodemailer@7.0.9':
     dependencies:
       '@types/node': 20.19.30
+
+  '@types/react-cookiebot@1.0.5':
+    dependencies:
+      '@types/react': 19.2.9
 
   '@types/react-dom@19.2.3(@types/react@19.2.9)':
     dependencies:
@@ -3886,6 +3911,12 @@ snapshots:
   punycode@2.3.1: {}
 
   queue-microtask@1.2.3: {}
+
+  react-cookiebot@1.0.10(react@19.2.3):
+    dependencies:
+      '@babel/runtime': 7.28.6
+      prop-types: 15.8.1
+      react: 19.2.3
 
   react-dom@19.2.3(react@19.2.3):
     dependencies:

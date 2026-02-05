@@ -93,7 +93,6 @@ export default function Swiper() {
                       </p>
                     </div>
                     <Image
-                      loading="lazy"
                       src={swiperSlide}
                       alt="swiper slide"
                       className="object-cover opacity-40 in-[.swiper-slide-fully-visible]:opacity-100 absolute inset-0 w-full h-full"

@@ -1,4 +1,5 @@
 import ContactSection from "@/components/ContactForm/ContactSection";
+import CookieBot from "@/components/Cookie/CookieBot";
 import FAQSection from "@/components/FAQ/FAQSection";
 import FAQSectionTransparent from "@/components/FAQ/FAQSectionTransparent";
 import Grid from "@/components/Grid/Grid";
@@ -20,6 +21,7 @@ export default function Home() {
       <Sicherheit />
       <ContactSection />
       <FAQSection />
+      <CookieBot />
     </main>
   );
 }

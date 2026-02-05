@@ -12,7 +12,6 @@ const Card = ({ iconSrc, title, description }: CardProps) => {
       {iconSrc && (
         <div className="md:w-7 md:h-7 w-5 h-5 mr-0 ml-auto">
           <Image
-            loading="lazy"
             src={iconSrc}
             alt={title}
             width={28}

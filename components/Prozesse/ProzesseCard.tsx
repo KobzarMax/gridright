@@ -28,7 +28,6 @@ export default function ProzesseCard({
         </p>
       </div>
       <Image
-        loading="lazy"
         src={prozesseBack}
         alt="prozesse back"
         width={0}

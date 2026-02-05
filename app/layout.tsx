@@ -68,14 +68,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${poppinsSans.className} bg-[#eeeeee]`}>
-        {/* Cookiebot Consent Management */}
+        {/* Cookiebot Consent Management
         <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="b79ad5b2-e5f3-41c1-9b4b-a34c003cc872"
           data-blockingmode="auto"
           strategy="beforeInteractive"
-        />
+        /> */}
 
         {/* Google Analytics */}
         <Script
@@ -91,12 +91,12 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Cookiebot Declaration */}
+        {/* Cookiebot Declaration
         <Script
           id="CookieDeclaration"
           src="https://consent.cookiebot.com/b79ad5b2-e5f3-41c1-9b4b-a34c003cc872/cd.js"
           strategy="afterInteractive"
-        />
+        /> */}
 
         <Header />
         {children}

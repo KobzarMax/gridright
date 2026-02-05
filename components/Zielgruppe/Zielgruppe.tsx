@@ -21,7 +21,6 @@ export default function Zielgruppe() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-[minmax(0,401px)_minmax(0,401px)] gap-4.5">
         <div className="row-span-2 max-w-121 relative bg-transparent group rounded-[10px] p-1">
           <Image
-            loading="lazy"
             className="max-w-full w-full h-full object-left object-cover rounded-[10px] blur-xs group-hover:blur-none transition-all duration-300"
             src={stromnetz}
             alt="stromnetz"
@@ -32,7 +31,6 @@ export default function Zielgruppe() {
         </div>
         <div className="max-w-121 relative bg-transparent group rounded-[10px] p-1">
           <Image
-            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] blur-xs group-hover:blur-none transition-all duration-300"
             src={wassernetz}
             alt="wassernetz"
@@ -43,7 +41,6 @@ export default function Zielgruppe() {
         </div>
         <div className="xl:col-span-2 relative bg-transparent group rounded-[10px] p-1">
           <Image
-            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] blur-xs group-hover:blur-none transition-all duration-300"
             src={telekommunikationsnetz}
             alt="Breitbandnetz"
@@ -54,7 +51,6 @@ export default function Zielgruppe() {
         </div>
         <div className="max-w-121 relative bg-transparent group rounded-[10px] p-1">
           <Image
-            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] blur-xs group-hover:blur-none transition-all duration-300"
             src={gasnets}
             alt="gasnetz"
@@ -66,7 +62,6 @@ export default function Zielgruppe() {
 
         <div className="xl:col-span-2 relative bg-transparent group rounded-[10px] p-1">
           <Image
-            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] blur-xs group-hover:blur-none transition-all duration-300"
             src={schienennetz}
             alt="schienennetz"

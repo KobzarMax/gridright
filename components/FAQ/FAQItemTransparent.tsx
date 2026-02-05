@@ -37,7 +37,6 @@ export default function FAQItemTransparent({
         <p className="faq-question__transparent">{item.question}</p>
         <button type="button" className="faq-icon__transparent">
           <Image
-            loading="lazy"
             width={19}
             height={28}
             sizes="100vw"
