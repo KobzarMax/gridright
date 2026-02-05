@@ -5,8 +5,9 @@ import { check, chevron, electric, electricPilon, euro } from "@/static";
 
 const Hero = () => {
   return (
-    <div className="relative w-full pt-30 xl:pt-40 px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pb-5 md:pb-10 xl:pb-17.5 2xl:pb-30 bg-secondary text-white flex flex-col items-center justify-center max-h-dvh h-dvh">
+    <div className="relative w-full pt-20 xl:pt-30 px-5 md:px-7.5 lg:px-10 xl:px-12.5 2xl:px-17.5 pb-5 md:pb-10 xl:pb-17.5 2xl:pb-30 bg-secondary text-white flex flex-col items-center justify-center max-h-dvh h-dvh">
       <Image
+        loading="lazy"
         className="absolute top-0 left-0 w-full h-full z-0 object-cover"
         src={electricPilon}
         alt="Electric Pylon"
@@ -20,12 +21,22 @@ const Hero = () => {
           <h1 className="text-3xl md:text-3xl lg:text-4xl xl:text-[3rem] leading-[1.08] m-0 lg:flex-1 max-w-2xl">
             Automatisierte Beschaffung von Wegerecht-Daten mit GridRight
           </h1>
-          <CTA className="flex items-center justify-center gap-5 text-xl">
+          <CTA
+            isLink={true}
+            href="#kontakt"
+            className="flex items-center justify-center gap-5 text-xl"
+          >
             Demo anfragen{" "}
-            <Image src={chevron} alt="Chevron" width={6} height={8} />
+            <Image
+              loading="lazy"
+              src={chevron}
+              alt="Chevron"
+              width={6}
+              height={8}
+            />
           </CTA>
         </div>
-        <div className="grid grid-cols-3 lg:flex mb-0 mt-auto flex-col gap-4">
+        <div className="grid grid-cols-3 xl:flex mb-0 mt-auto flex-col gap-4">
           <Card iconSrc={euro} title="Günstiger" />
           <Card iconSrc={electric} title="Effizienter" />
           <Card iconSrc={check} title="Zuverlässiger" />

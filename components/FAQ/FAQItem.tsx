@@ -34,10 +34,10 @@ export default function FAQItem({
         <p className="faq-question line-clamp-2">{item.question}</p>
         <button type="button" className="faq-icon">
           <Image
+            loading="lazy"
             width={19}
             height={28}
             sizes="100vw"
-            loading="lazy"
             src={isOpen ? xIcon : plus}
             alt="plus"
           />

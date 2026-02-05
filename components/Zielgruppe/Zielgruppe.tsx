@@ -19,8 +19,9 @@ export default function Zielgruppe() {
         subtitle="GridRight kann von allen gängigen Netzbetreibern genutzt werden."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-[minmax(0,401px)_minmax(0,401px)] gap-4.5">
-        <div className="row-span-2 max-w-121 relative group">
+        <div className="row-span-2 max-w-121 relative group rounded-[10px]">
           <Image
+            loading="lazy"
             className="max-w-full w-full h-full object-left object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={stromnetz}
             alt="stromnetz"
@@ -29,8 +30,9 @@ export default function Zielgruppe() {
             stromnetz
           </span>
         </div>
-        <div className="max-w-121 relative group">
+        <div className="max-w-121 relative group rounded-[10px]">
           <Image
+            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={wassernetz}
             alt="wassernetz"
@@ -39,8 +41,9 @@ export default function Zielgruppe() {
             wassernetz
           </span>
         </div>
-        <div className="xl:col-span-2 relative group">
+        <div className="xl:col-span-2 relative group rounded-[10px]">
           <Image
+            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={telekommunikationsnetz}
             alt="Breitbandnetz"
@@ -49,8 +52,9 @@ export default function Zielgruppe() {
             Breitbandnetz
           </span>
         </div>
-        <div className="max-w-121 relative group">
+        <div className="max-w-121 relative group rounded-[10px]">
           <Image
+            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={gasnets}
             alt="gasnetz"
@@ -60,8 +64,9 @@ export default function Zielgruppe() {
           </span>
         </div>
 
-        <div className="xl:col-span-2 relative group">
+        <div className="xl:col-span-2 relative group rounded-[10px]">
           <Image
+            loading="lazy"
             className="max-w-full w-full h-full object-cover rounded-[10px] group-hover:blur-none blur-xs border group-hover:border-transparent border-[#FFF6F6]/50 transition-all duration-300"
             src={schienennetz}
             alt="schienennetz"

@@ -24,6 +24,7 @@ export default function Footer() {
               href={"https://www.linkedin.com/company/gridright/"}
             >
               <Image
+                loading="lazy"
                 src={linkedin}
                 alt="linkedin"
                 width={48}
@@ -34,6 +35,7 @@ export default function Footer() {
           </div>
         </div>
         <Image
+          loading="lazy"
           src={footer_back}
           alt="Footer Background"
           className="w-full h-full top-0 left-0 rounded-[20px] absolute object-cover"

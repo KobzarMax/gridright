@@ -60,6 +60,7 @@ export default function Grid() {
         </div>
         <div className="w-full">
           <Image
+            loading="lazy"
             className="w-full"
             src={grid}
             alt="grid"

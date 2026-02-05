@@ -104,6 +104,8 @@
     background-image: url("../asset/swiper_back.png");
     object-fit: cover;
     background-color: #bacd9c;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fileDeckSwiper {
@@ -291,6 +293,13 @@
 
 .active .faq-answer-content__transparent p {
     color: #ffffff;
+}
+
+#funktionen {
+    background-image: url("../asset/grid_back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 992px) {

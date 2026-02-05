@@ -7,7 +7,9 @@ export default function ImpressumPage() {
         <h1 className="text-5xl font-bold">Impressum</h1>
         <h2 className="text-3xl font-medium">Informationen nach § 5 TMG:</h2>
         <div className="">
-          <p className="text-lg">GridRight ist ein Produkt Expert Minds GmbH</p>
+          <p className="text-lg">
+            GridRight ist ein Produkt der Expert Minds GmbH
+          </p>
           <p className="text-lg">Geschäftsführender Direktor: Emil Melikov</p>
           <p className="text-lg">Kontakt:</p>
           <p className="text-lg">
