@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "GridRight",
     images: [
       {
-        url: "/preload.png",
+        url: "https://gridright.de/preload.png",
         width: 1200,
         height: 630,
         alt: "GridRight - Automatisierte Wegerecht-Daten Beschaffung",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GridRight - Automatisierte Beschaffung von Wegerecht-Daten",
     description: "GridRight automatisiert die Verwaltung von Leitungsrechten für Energieversorger, Telekommunikationsanbieter und Infrastrukturbetreiber.",
-    images: ["/preload.png"],
+    images: ["https://gridright.de/preload.png"],
   },
   robots: {
     index: true,
