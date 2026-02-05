@@ -61,7 +61,7 @@ export async function POST(req: Request) {
       "",
       "Wir melden uns zeitnah bei Ihnen.",
       "",
-      "— GridRight",
+      "— Das GridRight Team",
     ].join("\n");
 
     const html = `
@@ -74,7 +74,7 @@ export async function POST(req: Request) {
         <li><strong>Zeit:</strong> ${escapeHtml(submittedAt)}</li>
       </ul>
       <p>Wir melden uns zeitnah bei Ihnen.</p>
-      <p>— <strong>GridRight</strong></p>
+      <p>— <strong>Das GridRight Team</strong></p>
     `;
 
     await resend.emails.send({
@@ -85,7 +85,7 @@ export async function POST(req: Request) {
       to: email,
 
       // // CC: you (so it lands in your inbox)
-      cc: "emil.melikov@gridright.de",
+      cc: "anfrage@gridright.de",
 
       subject,
       text,
