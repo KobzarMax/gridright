@@ -15,7 +15,7 @@ const Hero = () => {
         sizes="100vw,100vh"
       />
 
-      <div className="grid lg:grid-cols-[1fr_auto] gap-4 items-start relative z-1 h-full w-full">
+      <div className="grid lg:grid-cols-[1fr_auto] gap-4 items-start relative z-1 h-fit w-full">
         <div className="flex flex-col justify-start items-start gap-8 mr-auto h-full">
           <h1 className="text-3xl md:text-3xl lg:text-4xl xl:text-[3rem] leading-[1.08] m-0 lg:flex-1 max-w-2xl">
             Automatisierte Beschaffung von Wegerecht-Daten mit GridRight
@@ -26,12 +26,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-5 text-xl"
           >
             Demo anfragen{" "}
-            <Image
-              src={chevron}
-              alt="Chevron"
-              width={6}
-              height={8}
-            />
+            <Image src={chevron} alt="Chevron" width={6} height={8} />
           </CTA>
         </div>
         <div className="grid grid-cols-3 xl:flex mb-0 mt-auto flex-col gap-4">
