@@ -15,7 +15,7 @@ const Hero = () => {
         sizes="100vw,100vh"
       />
 
-      <div className="grid lg:grid-cols-[1fr_auto] gap-4 items-start relative z-1 h-fit w-full">
+      <div className="grid lg:grid-cols-[1fr_auto] gap-4 items-start relative z-1 h-full lg:h-fit w-full">
         <div className="flex flex-col justify-start items-start gap-8 mr-auto h-full">
           <h1 className="text-3xl md:text-3xl lg:text-4xl xl:text-[3rem] leading-[1.08] m-0 lg:flex-1 max-w-2xl">
             Automatisierte Beschaffung von Wegerecht-Daten mit GridRight
