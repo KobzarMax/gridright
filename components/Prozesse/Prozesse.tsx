@@ -7,25 +7,25 @@ export default function Prozesse() {
       number: "01",
       title: "Manueller Aufwand",
       description:
-        "Energieversorger, Telekommunikationsanbieter, Verkehrsunternehmen und andere Infrastrukturbetreiber kämpfen mit der manuellen Verwaltung von Leitungsrechten",
+        "Energieversorger, Telekommunikationsanbieter, Verkehrsunternehmen und andere Infrastrukturbetreiber kämpfen mit der manuellen Verwaltung von Leitungsrechten.",
     },
     {
       number: "02",
       title: "Hohe Kosten",
       description:
-        "Manuelle Recherche und Bearbeitung von Vertragsrechten verursacht durchschnittlich bis EUR pro Grundbucheintrag",
+        "Manuelle Recherche und Abgleich von Leitungsrechten kostet ca. 10.000 EUR für eine Strecke von ca. 30 km.",
     },
     {
       number: "03",
       title: "Lange Bearbeitungszeiten",
       description:
-        "Der manuelle Prozess dauert 2-3 Wochen pro Liegenschaft und verzögert Bauvorhaben und Netzausbau",
+        "Der manuelle Prozess dauert mehrere Monate pro Leitungsabschnitt und verzögert Bauvorhaben und Netzausbau.",
     },
     {
       number: "04",
       title: "Veraltete Daten",
       description:
-        "Veraltete Eigentümerdaten führen zu ungenauen Besitzverhältnissen und Risiken von Rechtsstreitigkeiten",
+        "Veraltete Eigentümerdaten führen zu ungenauen Besitzverhältnissen und Risiken von Rechtsstreitigkeiten.",
     },
   ];
 
